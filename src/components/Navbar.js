@@ -6,7 +6,7 @@ const NavBar = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="#">
-          <img src={props.src} alt={props.alt} height="60px" width="70px" />
+          <img src={props.src} alt={props.alt} height="50px" width="70px" />
         </NavbarBrand>
       </Navbar>
     </div>
