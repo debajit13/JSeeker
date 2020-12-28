@@ -1,41 +1,40 @@
-import React from 'react';
-import { Table } from 'reactstrap';
-import { Button } from 'reactstrap';
-import './Table.css';
+import React from "react";
+import { Table } from "reactstrap";
+import { Button } from "reactstrap";
+import "./Table.css";
+import data from "./data";
 
 const Tablee = (props) => {
   return (
-    <Table striped className='mt-5'>
+    <Table striped className="mt-5">
       <thead>
         <tr>
-          <th>#</th>
+          <th>No</th>
           <th>Company</th>
           <th>Career Site</th>
           <th>Glassdor Link</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Adobe</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Microsoft</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Paypal</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-          <td><Button color="primary">Click Here</Button>{' '}</td>
-        </tr>
+        {data.map((item, index) => (
+          <tr>
+            <th scope="row">{index + 1}</th>
+            <td>{item.companyName}</td>
+            <td>
+              <a href={item.carrearURL} target="_blank">
+                <Button color="primary">Click Here</Button>
+              </a>
+            </td>
+            <td>
+              <a href={item.glassdoorURL} target="_blank">
+                <Button color="primary">Click Here</Button>
+              </a>
+            </td>
+          </tr>
+        ))}
       </tbody>
     </Table>
   );
-}
+};
 
 export default Tablee;
