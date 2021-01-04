@@ -2,8 +2,8 @@ import React from "react";
 import Darkmode from "darkmode-js";
 import NavBar from "./components/Navbar";
 import Tablee from "./components/Table/Table";
-import FooterPage from "./components/Footer/Footer";
 import logo from "./assets/logo.svg";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const options = {
@@ -19,7 +19,7 @@ const App = () => {
         <Tablee />
         {darkmode.showWidget()}
       </div>
-      <FooterPage />
+      <Footer />
     </div>
   );
 };
