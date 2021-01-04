@@ -5,6 +5,7 @@ import "./Table.css";
 import data from "./data";
 
 const Tablee = (props) => {
+  data.sort((a, b) => a.companyName.localeCompare(b.companyName)); //sort all companies alphabetically by their names
   return (
     <Table striped className="mt-5">
       <thead>
