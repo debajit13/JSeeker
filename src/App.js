@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/Navbar";
 import Tablee from "./components/Table/Table";
+import FooterPage from "./components/Footer/Footer";
 import logo from "./assets/logo.svg";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <div className="container">
         <Tablee />
       </div>
+      <FooterPage />
     </div>
   );
 };
