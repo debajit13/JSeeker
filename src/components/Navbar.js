@@ -9,7 +9,7 @@ const NavBar = (props) => {
         <NavbarBrand href="#">
           <p>
             <img src={props.src} alt={props.alt} height="50px" width="70px" />
-            Jseekr
+            <span className="brand-name">Jseekr</span>
           </p>
         </NavbarBrand>
       </Navbar>

@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
-p{
-    font-size: 25px;
-    color: #dea262;
-    font-family: 'Audiowide', cursive;
+.brand-name {
+  font-size: 25px;
+  color: #dea262;
+  font-family: "Audiowide", cursive;
 }
 .navbar {
+<<<<<<< HEAD
     padding-bottom: 0px;
     margin-left: 0px;
 }
+=======
+  padding-bottom: 0px;
+}
+>>>>>>> ed35991c610c8e3488c5ccd7bb04f77bcac7fbb7
