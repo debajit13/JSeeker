@@ -4,23 +4,23 @@
 
 # JSeekr
 
-An Admin Dashboard site project where you can track all your investments.
+Find jobs of top multinational companies.
 
 ---
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Sankalan47/Finacular/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://finacularadmin.netlify.app/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Sankalan47/Finacular/discussions/1) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/debajit13/JSeeker/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://jseekr.netlify.app/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/debajit13/JSeeker/discussions/1) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
 ## Motivation
 
-Whenever I searched for a job vacancy in any company, I used to check the Career Site of that company. Since the numbers are too many of these, we created this site centralizing the career pages along with the Glassdoor review pages such that, everyone can get an insight of this company easily just in one click. There's no more need to search for different company names and get to their career pages. 
+Whenever I searched for a job vacancy in any company, I used to check the Career Site of that company. Since the numbers are too many of these, we created this site centralizing the career pages along with the Glassdoor review pages such that, everyone can get an insight of this company easily just in one click. There's no more need to search for different company names and get to their career pages.
 
 ## Future Commitment
-We're bound to update this site to make it more accessable in the future updates as well as we're thinking of building a mobile application to make it more reachable to mobile users.
 
+We're bound to update this site to make it more accessable in the future updates as well as we're thinking of building a mobile application to make it more reachable to mobile users.
 
 ## Screenshots
 
-<img src="public/Screenshot .png">
+<img src="./src/assets/screenshot.png">
 
 ## Tech/ Framework Used
 
@@ -29,7 +29,7 @@ We're bound to update this site to make it more accessable in the future updates
 1. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 2. [ReactJS](https://reactjs.org/)
 3. [ReactStrap](https://reactstrap.github.io/)
-
+4. [mdbreact](https://www.npmjs.com/package/mdbreact)
 
 ## Available Scripts
 
@@ -68,4 +68,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<p align="center">Made with :heart: and :coffee: by Sankalan Dasgupta & Debajit Mallick</p>
+<p align="center">Made with :heart: and :coffee: by <a href="https://www.linkedin.com/in/debajit-mallick/">Debajit</a> & <a href="https://www.linkedin.com/in/sankalan-dasgupta-ba390616a/">Sankalan</a></p>
