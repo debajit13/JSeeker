@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/Navbar";
 import Tablee from "./components/Table/Table";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo.svg";
 
 const App = () => {
   return (

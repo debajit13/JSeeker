@@ -22,12 +22,12 @@ const Tablee = (props) => {
             <td>{item.companyName}</td>
             <td>
               <a href={item.carrearURL} target="_blank">
-                <Button color="primary">Click Here</Button>
+                <Button color="primary">Click</Button>
               </a>
             </td>
             <td>
               <a href={item.glassdoorURL} target="_blank">
-                <Button color="primary">Click Here</Button>
+                <Button color="primary">Click</Button>
               </a>
             </td>
           </tr>

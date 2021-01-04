@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+p{
+    font-size: 25px;
+    color: #dea262;
+    font-family: 'Audiowide', cursive;
+}
+.navbar {
+    padding-bottom: 0px;
+}
