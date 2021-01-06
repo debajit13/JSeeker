@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 .btn {
     border-radius: 18px;
 }
 
 .table{
     font-family: 'Nunito', sans-serif;
+    
 }
 
 .darkmode--activated .table {
     color: #ffffff;
 }
+
+
+
+@media (max-width: 1000px) {
+
+    .mdb-datatable-filter {
+        width: 100%;
+        
+    }
+    .dataTables_length {
+        width: 100%;
+    }
+   
+
+}
+

@@ -180,11 +180,6 @@ const data = [
     glassdoorURL: "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
   },
   {
-    companyName: "Ola",
-    carrearURL: "https://www.olacabs.com/careers",
-    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
-  },
-  {
     companyName: "ShareChat",
     carrearURL: "https://we.sharechat.com/careers",
     glassdoorURL:
