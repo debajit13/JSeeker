@@ -1,40 +1,53 @@
 import React from "react";
-import { Table } from "reactstrap";
-import { Button } from "reactstrap";
+import { MDBDataTable, MDBBtn } from "mdbreact";
 import "./Table.css";
 import data from "./data";
 
-const Tablee = (props) => {
+const Tablee = () => {
   data.sort((a, b) => a.companyName.localeCompare(b.companyName)); //sort all companies alphabetically by their names
+
+  const datas = {
+    columns: [
+      {
+        label: "No",
+        field: "no",
+      },
+      {
+        label: "Company",
+        field: "company",
+        sort: "asc",
+      },
+      {
+        label: "Carrear Site",
+        field: "carrearURL",
+      },
+      {
+        label: "Glassdoor Link",
+        field: "glassdoorURL",
+      },
+    ],
+
+    rows: [
+      ...data.map((item, index) => ({
+        no: index + 1,
+        company: item.companyName,
+        carrearURL: (
+          <a href={item.carrearURL} target="_blank">
+            <MDBBtn color="primary">Click</MDBBtn>
+          </a>
+        ),
+        glassdoorURL: (
+          <a href={item.glassdoorURL} target="_blank">
+            <MDBBtn color="primary">Click</MDBBtn>
+          </a>
+        ),
+      })),
+    ],
+  };
   return (
-    <Table striped className="mt-5">
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>Company</th>
-          <th>Career Site</th>
-          <th>Glassdor Link</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((item, index) => (
-          <tr>
-            <th scope="row">{index + 1}</th>
-            <td>{item.companyName}</td>
-            <td>
-              <a href={item.carrearURL} target="_blank">
-                <Button color="primary">Click</Button>
-              </a>
-            </td>
-            <td>
-              <a href={item.glassdoorURL} target="_blank">
-                <Button color="primary">Click</Button>
-              </a>
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </Table>
+    <div>
+      <MDBDataTable data={datas} striped />
+    </div>
   );
 };
 

@@ -177,14 +177,12 @@ const data = [
   {
     companyName: "Ola",
     carrearURL: "https://www.olacabs.com/careers",
-    glassdoorURL:
-      "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
   },
   {
     companyName: "Ola",
     carrearURL: "https://www.olacabs.com/careers",
-    glassdoorURL:
-      "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Ola-Reviews-E587383.htm",
   },
   {
     companyName: "ShareChat",
@@ -231,8 +229,7 @@ const data = [
   {
     companyName: "Yelp",
     carrearURL: "https://www.yelp.careers/us/en",
-    glassdoorURL:
-      "https://www.glassdoor.co.in/Reviews/Yelp-Reviews-E43314.htm",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Yelp-Reviews-E43314.htm",
   },
   {
     companyName: "ThoughtWorks",
@@ -290,7 +287,8 @@ const data = [
   },
   {
     companyName: "Mastercard",
-    carrearURL: "https://www.mastercard.us/en-us/vision/who-we-are/careers.html",
+    carrearURL:
+      "https://www.mastercard.us/en-us/vision/who-we-are/careers.html",
     glassdoorURL:
       "https://www.glassdoor.co.in/Reviews/Mastercard-Reviews-E3677.htm",
   },
