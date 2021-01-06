@@ -14,7 +14,9 @@
     color: #ffffff;
 }
 
-
+.darkmode-toggle {
+    z-index: 500;
+  }
 
 @media (max-width: 1000px) {
 
