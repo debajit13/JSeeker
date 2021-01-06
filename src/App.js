@@ -16,13 +16,11 @@ const App = () => {
 
   return (
     <div>
-    {darkmode.showWidget()}
+      {darkmode.showWidget()}
       <NavBar src={logo} alt="JSEEKR Logo" />
       <div className="container">
-     
-        <img src={clip} className="clips mt-4" />
+        <img src={clip} alt="clip image" className="clips mt-4" />
         <Tablee />
-        
       </div>
       <Footer />
     </div>

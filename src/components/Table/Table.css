@@ -1,33 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 .btn {
-    border-radius: 18px;
+  border-radius: 18px;
 }
 
-.table{
-    font-family: 'Nunito', sans-serif;
-    
+.table {
+  font-family: "Nunito", sans-serif;
 }
 
 .darkmode--activated .table {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .darkmode-toggle {
-    z-index: 500;
-  }
-
-@media (max-width: 1000px) {
-
-    .mdb-datatable-filter {
-        width: 100%;
-        
-    }
-    .dataTables_length {
-        width: 100%;
-    }
-   
-
+  z-index: 500;
 }
 
+tbody + thead {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .mdb-datatable-filter {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .dataTables_length {
+    width: 100%;
+  }
+}
