@@ -46,7 +46,7 @@ const Tablee = () => {
   };
   return (
     <div>
-      <MDBDataTable data={datas} striped />
+      <MDBDataTable data={datas} striped className="table"/>
     </div>
   );
 };

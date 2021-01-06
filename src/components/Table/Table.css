@@ -7,3 +7,7 @@
 .table{
     font-family: 'Nunito', sans-serif;
 }
+
+.darkmode--activated .table {
+    color: #ffffff;
+}
