@@ -353,6 +353,29 @@ const data = [
     glassdoorURL:
       "https://www.glassdoor.co.in/Reviews/Amazon-Reviews-E6036.htm",
   },
+  {
+    companyName: "TCS",
+    carrearURL: "https://www.tcs.com/careers?country=IN&lang=EN",
+    glassdoorURL:
+      "https://www.glassdoor.co.in/Reviews/Tata-Consultancy-Services-Reviews-E13461.htm",
+  },
+  {
+    companyName: "TCS",
+    carrearURL: "https://www.tcs.com/careers?country=IN&lang=EN",
+    glassdoorURL:
+      "https://www.glassdoor.co.in/Reviews/Tata-Consultancy-Services-Reviews-E13461.htm",
+  },
+  {
+    companyName: "Cognizent",
+    carrearURL: "https://careers.cognizant.com/au/en",
+    glassdoorURL:
+      "https://www.glassdoor.co.in/Reviews/Cognizant-Technology-Solutions-Reviews-E8014.htm",
+  },
+  {
+    companyName: "Wipro",
+    carrearURL: "https://careers.wipro.com/careers-home/",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Wipro-Reviews-E9936.htm",
+  },
 ];
 
 export default data;
