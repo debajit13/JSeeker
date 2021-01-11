@@ -370,6 +370,26 @@ const data = [
     carrearURL: "https://careers.wipro.com/careers-home/",
     glassdoorURL: "https://www.glassdoor.co.in/Reviews/Wipro-Reviews-E9936.htm",
   },
+  {
+    companyName: "Wipro",
+    carrearURL: "https://careers.wipro.com/careers-home/",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Wipro-Reviews-E9936.htm",
+  },
+  {
+    companyName: "Qualcomm",
+    carrearURL: "https://www.qualcomm.com/company/careers",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Qualcomm-Reviews-E640.htm",
+  },
+  {
+    companyName: "Texas Instruments",
+    carrearURL: "https://careers.ti.com/",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Texas-Instruments-Reviews-E651.htm",
+  },
+  {
+    companyName: "Samsung",
+    carrearURL: "https://www.samsung.com/in/aboutsamsung/careers/careers-center/",
+    glassdoorURL: "https://www.glassdoor.co.in/Reviews/Samsung-Electronics-Reviews-E3363.htm",
+  },
 ];
 
 export default data;
