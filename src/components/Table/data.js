@@ -360,12 +360,6 @@ const data = [
       "https://www.glassdoor.co.in/Reviews/Tata-Consultancy-Services-Reviews-E13461.htm",
   },
   {
-    companyName: "TCS",
-    carrearURL: "https://www.tcs.com/careers?country=IN&lang=EN",
-    glassdoorURL:
-      "https://www.glassdoor.co.in/Reviews/Tata-Consultancy-Services-Reviews-E13461.htm",
-  },
-  {
     companyName: "Cognizent",
     carrearURL: "https://careers.cognizant.com/au/en",
     glassdoorURL:
